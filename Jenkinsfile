@@ -13,7 +13,7 @@ sh "docker build -t docker_test2:latest ."
 }
 
 stage('Docker login to hub and push the image'){
-sh "docker login -u 'jgit' -p 'Devops123' "
+sh "docker login -u 'jgit' -p 'ccccccc' "
 sh "docker tag docker_test2:latest jgit/docker_test:latest"
 sh "docker push jgit/docker_test:latest"
 }
